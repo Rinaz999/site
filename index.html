@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+     <script
+  src="https://smartcaptcha.yandexcloud.net/captcha.js?render=onload&onload=onloadFunction"
+  async defer
+></script>
+<script>
+let FName;
+let widgetId;
+
+
+
+function onloadFunction() {
+    if (!window.smartCaptcha) {
+      return;
+    }
+
+   widgetId = window.smartCaptcha.render('captcha-container', {
+      sitekey: 'ysc1_QWn9R9JjpNM4h6dnuLNf6wbjyggDRWslxr7zgi1uff03c916',
+      invisible: true, 
+      hideShield: true,
+      callback: callback1,
+    });
+  }
+
+  function callback1(token) {
+      if ((typeof token === "string" && token.length > 0)  && (document.getElementById(FName).tel.value || document.getElementById(FName).email.value)) {
+    document.getElementById(FName).submit();
+      }
+}
+  
+   function handleSubmit(formName) {
+  if (!window.smartCaptcha) {
+    return;
+  }
+  FName = formName;
+  window.smartCaptcha.execute(widgetId);
+   }
+  
+  </script>
+
+  <meta charset="utf-8">
+  <title>Реванш - эквайринг от 0.9%</title>
+  <meta name="description" content="Терминалы для малого бизнеса под ключ">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:image" content="path/to/image.jpg">
+  <meta http-equiv="Refresh" content="600; URL=index.html#onepercent">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png@v=2">
+    <link rel="shortcut icon" href="favicon.ico@v=2">
+    <link rel="icon" type="image/png" sizes="32x32" href="">
+    <link rel="icon" type="image/png" sizes="16x16" href="">
+
+    <link rel="manifest" href="site.webmanifest@v=2.html">
+    <link rel="mask-icon" href="safari-pinned-tab.svg@v=2" color="#3f096b">
+    <meta name="msapplication-TileColor" content="#3f096b">
+    <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="css/main.min.css">
+  <link rel="stylesheet" href="css/main_new.css">
+
+
+</head>
+
+<body>
+
+  <div id="page-wrap">
+    <header class="header">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-xl-auto col-lg-5 col-md-6 col-12">
+            <a href="index.html">
+              <div class="header__logo">
+                <img src="img/revansh-high-resolution-logo-transparent.png" alt="">
+                <div class="header__logo__descr">
+                  <p>Терминалы для малого <br>бизнеса под ключ</p>
+                  </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-auto col-md-6 col-12">
+            <div class="header__right" >
+              <a href="tel:89393939393" class="header__phone"><svg class="svg-ico" width="22" height="22">
+                  <use xlink:href="img/sprite.svg#ico-phone"></use>
+                </svg>8 939 393 93 93</a> <br/> <a href="tel:89393939393" class="header__phone"><svg class="svg-ico" width="22" height="22">
+                  <use xlink:href="img/sprite.svg#ico-phone"></use>
+                </svg>8 939 393 93 93</a>
+              <span class="d-none d-md-inline">
+                <button class="btn btn-small" data-fancybox data-src="#popup-callback">Заказать обратный звонок</button>
+              </span><p>
+              <span  class="d-md-none">
+                <button class="btn btn-small" data-fancybox data-src="#popup-callback">Обратный звонок</button>
+              </span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="s_intro">
+      <div   style="padding-top:20px;" class="container">
+        <h1 class="s_intro__h1"><strong>POS терминалы</strong> со&nbsp;ставкой эквайринга от 0,9% c бесплатной настройкой и доставкой по РФ</h1>
+        <div class="row s_intro__benefits">
+          <div class="col-md-4 col-12">
+            <div class="s_intro__benefits__itm">
+              <svg class="svg-ico" width="120" height="120">
+                <use xlink:href="img/sprite.svg#ico-ben-1"></use>
+              </svg>
+              <p>Гибкие решения от 4 производителей: от недорогих, но надежных Aisino до терминалов мирового уровня Ingenico</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-12">
+            <div class="s_intro__benefits__itm">
+              <svg class="svg-ico" width="120" height="120">
+                <use xlink:href="img/sprite.svg#ico-ben-2"></use>
+              </svg>
+              <p>Возмещение денежных средств <br/> день-в-день</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-12">
+            <div class="s_intro__benefits__itm">
+              <svg class="svg-ico" width="120" height="120">
+                <use xlink:href="img/sprite.svg#ico-ben-3"></use>
+              </svg>
+              <p>100% совместимость с любой существующей кассой</p>
+            </div>
+          </div>
+        </div>
+        <div class="s_intro__contact">
+          <p>Оставьте номер телефона или E-mail <br>и узнайте самую выгодную модель терминала именно для вашего бизнеса</p>
+          <button class="btn" data-fancybox data-src="#popup-price">Узнать цену и самую выгодную модель</button>
+        </div>
+      </div>
+    </section>
+    <section class="section s_persent">
+      <div class="container">
+        <h2 class="s_title">Честная ставка от <b>0,9%</b> без дополнительных платежей даже при обороте <b>0 ₽</b> в месяц</h2>
+        <div class="row s_persent__list">
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="s_persent__itm">
+              <div class="s_persent__itm__val">0,9%</div>
+              <h3 class="s_persent__itm__title">Предприятия ЖКХ</h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="s_persent__itm">
+              <div class="s_persent__itm__val">1,10%</div>
+              <h3 class="s_persent__itm__title">Медицинские услуги</h3>
+              <p class="s_persent__itm__descr">(частные клиники, диагностические центры, анализы)</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="s_persent__itm">
+              <div class="s_persent__itm__val">1,10%</div>
+              <h3 class="s_persent__itm__title">Образовательные учреждения </h3>
+              <p class="s_persent__itm__descr">(частные школы, детские сады, секции, кружки)</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="s_persent__itm">
+              <div class="s_persent__itm__val">1,20%</div>
+              <h3 class="s_persent__itm__title">Рестораны, кафе, <br>столовые, фаст-фуд<br /></h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="s_persent__itm">
+              <div class="s_persent__itm__val">1,50%</div>
+              <h3 class="s_persent__itm__title">Автомобильные заправочные станции</h3>
+              <p class="s_persent__itm__descr">(АЗС)</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="s_persent__itm">
+         <div class="s_persent__itm__val">1,60%</div>
+         
+              <h3 class="s_persent__itm__title">Магазины продуктов</h3>
+            </div>
+          </div>
+        </div>
+        <div class="s_persent__note">
+          <p>Оставьте номер телефона или E-mail и мы обсудим % ставку для Вашего бизнеса</p>
+          <button class="btn btn-dark" data-fancybox data-src="#popup-percent">Хочу обсудить мою ставку</button>
+        </div>
+      </div>
+    </section>
+    <section class="section-small s_benefist">
+      <div class="container">
+        <h2 class="s_title">Настроим Ваш терминал под ключ и доставим по всей территории РФ <strong>бесплатно!</strong></h2>
+        <div class="row justify-content-center s_benefist__list">
+          <div class="col-lg-4 col-md-5 col-12">
+            <div class="s_benefist__itm">
+              <div class="s_benefist__itm__ico">
+                <svg class="svg-ico" width="40" height="40">
+                  <use xlink:href="img/sprite.svg#ico-wifi"></use>
+                </svg>
+              </div>Бесплатная связь <br>100% за наш счет
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 col-12">
+            <div class="s_benefist__itm">
+              <div class="s_benefist__itm__ico">
+                <svg class="svg-ico" width="40" height="40">
+                  <use xlink:href="img/sprite.svg#ico-time"></use>
+                </svg></div>Круглосуточная <br>поддержка 7/24
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 col-12">
+            <div class="s_benefist__itm">
+              <div class="s_benefist__itm__ico">
+                <svg class="svg-ico" width="40" height="40">
+                  <use xlink:href="img/sprite.svg#ico-persent"></use>
+                </svg></div>Без скрытых <br>комиссий и переплат
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section s_catalog">
+      <div class="container">
+        <h2 class="s_title">Посмотрите на терминалы - лидеры продаж</h2>
+        <div class="row justify-content-center s_catalog__list">
+          <div class="col-12">
+            <h3 class="s_catalog__title"><span>Бюджетные модели</span></h3>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="s_catalog__itm">
+              <h4 class="s_catalog__itm__title">Aisino V 80 SE</h4>
+              <div class="s_catalog__itm__subtitle">Компактный настольный терминал</div>
+              <img src="img/catalog/V80hires.jpg"  alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="s_catalog__itm">
+              <h4 class="s_catalog__itm__title">Aisino V 71</h4>
+              <div class="s_catalog__itm__subtitle">Портативный платежный <br>POS-терминал</div>
+              <img src="img/catalog/V71hires.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="s_catalog__itm">
+              <h4 class="s_catalog__itm__title">Aisino V 10</h4>
+              <div class="s_catalog__itm__subtitle">С клавиатурой для PIN-кода и считывателем карт NFC</div>
+              <img src="img/catalog/04_v37-800x6001.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-12">
+            <h3 class="s_catalog__title"><span>Премиум модели</span></h3>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="s_catalog__itm">
+              <h4 class="s_catalog__itm__title">Ingenico MOVE 3500</h4>
+              <div class="s_catalog__itm__subtitle">Удобный переносной терминал</div>
+              <img src="img/catalog/MOVE3500.jpg" width="350" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="s_catalog__itm">
+              <h4 class="s_catalog__itm__title">Ingenico DESK 3200</h4>
+              <div class="s_catalog__itm__subtitle">Cтационарный терминал</div>
+              <img src="img/catalog/desk3500n.png" width="350" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="s_catalog__itm">
+              <h4 class="s_catalog__itm__title">Ingenico LANE 3000</h4>
+              <div class="s_catalog__itm__subtitle">ПИН-пад для кассы</div>
+              <img src="img/catalog/POS-terminal-Ingenico-Lane5000_11.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-small s_garanty">
+      <div class="container">
+        <h2 class="s_title">Гарантийное обслуживание <b>12 месяцев</b></h2>
+        <div class="row s_garanty__list">
+          <div class="col-md-4 col-12">
+            <div class="s_garanty__itm">
+              <div class="s_garanty__itm__ico">
+                <svg class="svg-ico" width="80" height="80">
+                  <use xlink:href="img/sprite.svg#ico-garanty-1"></use>
+                </svg>
+              </div>
+              <p>Бесплатная замена терминала на новый без ожиданий и&nbsp;экспертиз</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-12">
+            <div class="s_garanty__itm">
+              <div class="s_garanty__itm__ico">
+                <svg class="svg-ico" width="80" height="80">
+                  <use xlink:href="img/sprite.svg#ico-garanty-2"></use>
+                </svg></div>
+              <p>Бесплатный выезд технического специалиста</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-12">
+            <div class="s_garanty__itm">
+              <div class="s_garanty__itm__ico">
+                <svg class="svg-ico" width="80" height="80">
+                  <use xlink:href="img/sprite.svg#ico-garanty-3"></use>
+                </svg></div>
+              <p>Оперативное сервисное обслуживание по всей территории РФ</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+   
+    <section class="section-small s_delay">
+      <div class="container">
+        <h2 class=" s_title">Не хватает денег? Приобретайте с отсрочкой!</h2>
+        <div class="row justify-content-center s_benefist__list">
+          <div class="col-lg-4 col-md-5 col-12">
+            <div class="s_benefist__itm">
+              <div class="s_benefist__itm__ico">
+                <svg class="svg-ico" width="40" height="40">
+                  <use xlink:href="img/sprite.svg#ico-calendar"></use>
+                </svg>
+              </div>Отсрочка платежа <br>на 4 или 8 месяцев
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 col-12">
+            <div class="s_benefist__itm">
+              <div class="s_benefist__itm__ico">
+                <svg class="svg-ico" width="40" height="40">
+                  <use xlink:href="img/sprite.svg#ico-wallet"></use>
+                </svg></div>Первый платеж <br>за терминал 2 400 ₽
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 col-12">
+            <div class="s_benefist__itm">
+              <div class="s_benefist__itm__ico">
+                <svg class="svg-ico" width="40" height="40">
+                  <use xlink:href="img/sprite.svg#ico-persent"></use>
+                </svg></div>Скрытые комиссии отсутствуют
+            </div>
+          </div>
+        </div>
+        <div class="s_persent__note">
+          <p>Оставьте номер телефона или E-mail и получите отсрочку</p>
+          <button class="btn btn-dark" data-fancybox data-src="#popup-delay">Приобрести терминал с отсрочкой платежа</button>
+        </div>
+      </div>
+    </section>
+    <section class="section s_faq">
+      <div class="container">
+        <h2 class="s_title">Часто задаваемые вопросы</h2>
+        <div class="s_faq__list">
+          <div class="s_faq__itm">
+            <svg class="svg-ico" width="32" height="32">
+              <use xlink:href="img/sprite.svg#ico-chevron-down"></use>
+            </svg>
+            <h3 class="s_faq__title">Потребуется ли доп. оплата программного обеспечения?</h3>
+            <div class="s_faq__descr">Нет. Настроим Ваш терминал под ключ и доставим по всей территории РФ бесплатно!</div>
+          </div>
+          <div class="s_faq__itm">
+            <svg class="svg-ico" width="32" height="32">
+              <use xlink:href="img/sprite.svg#ico-chevron-down"></use>
+            </svg>
+            <h3 class="s_faq__title">Когда я смогу начать работу с терминалом?</h3>
+            <div class="s_faq__descr">3-4 дня после заключения договора и оплаты.</div>
+          </div>
+          <div class="s_faq__itm">
+            <svg class="svg-ico" width="32" height="32">
+              <use xlink:href="img/sprite.svg#ico-chevron-down"></use>
+            </svg>
+            <h3 class="s_faq__title">Какие документы необходимы?</h3>
+            <div class="s_faq__descr">Для ИП только копия паспорта, для ООО копии паспортов учредителей и генерального директора.</div>
+          </div>
+          <div class="s_faq__itm">
+            <svg class="svg-ico" width="32" height="32">
+              <use xlink:href="img/sprite.svg#ico-chevron-down"></use>
+            </svg>
+            <h3 class="s_faq__title">С какими кассами терминалы совместимы?</h3>
+            <div class="s_faq__descr">Устройства Ingenico совместимы с большинством касс на рынке, позвоните и мы расскажем подробнее.</div>
+          </div>
+          <div class="s_faq__itm">
+            <svg class="svg-ico" width="32" height="32">
+              <use xlink:href="img/sprite.svg#ico-chevron-down"></use>
+            </svg>
+            <h3 class="s_faq__title">Что делать если у меня уже открыт счет в другом банке?</h3>
+            <div class="s_faq__descr">Ничего страшного, наши терминалы умеют зачислять выручку по эквайрингу на расчетный счет в любом банке, и это абсолютно бесплатно!</div>
+          </div>
+          <div class="s_faq__itm">
+            <svg class="svg-ico" width="32" height="32">
+              <use xlink:href="img/sprite.svg#ico-chevron-down"></use>
+            </svg>
+            <h3 class="s_faq__title">Что делать если терминал сломался?</h3>
+            <div class="s_faq__descr">Бесплатно заменим терминал на новый в срок не более 3х дней.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="s_partners section-small">
+      <div class="container">
+        <h2 class="s_title">Партнеры</h2>
+        <div class="s_partners__list">
+          <div class="s_partners__itm">
+            <img src="img/partners/1280px-VTB_Logo_2018.png" alt="">
+          </div>
+          <div class="s_partners__itm">
+            <img src="img/partners/61dab3a13c0bcc54ba48c835ed51a740.png" alt="">
+          </div>
+         
+        </div>
+      </div>
+    </section>
+    <a name="onepercent"></a>
+   
+    
+    
+    <section class="s_contacts">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 col-md-5 col-12">
+            <div class="s_contacts__content section-small">
+              <h2 class="s_title">Наш офис в Арске</h2>
+              <p class="s_contacts__name"><b>ООО "Реванш"</b> <br>ИНН 1609004878</p>
+              <p><b>г. Арск</b></p>
+              <p>Юрид.адрес: 422000, Республика Татарстан, Арский р-н, г Арск, ул Галактионова, д. 4, кв. 2</p>
+              <p>Факт.адрес: 422000, Республика Татарстан, Арский р-н, г Арск, ул Банковская, д. 1</p>
+              <a href="" target="_blank"><img src="img/vk.png" width=50></a>
+              <a href="" target="_blank"><img src="img/ok.png" width=50></a>
+            </div>
+            
+          </div>
+          
+          <div class="col-md-7 col-12 offset-xl-1">
+          
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-auto">
+            <a href="index.html">
+              <div class="header__logo">
+                <img src="img/logo.svg" alt="">
+                <div class="header__logo__descr">
+                  <p>Терминалы для малого <br>бизнеса под ключ<p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  
+  
+  <div style="display: none;">
+      
+   
+  
+    <div class="popup" id="popup-callback">
+      <button class="popup__close" data-fancybox-close>
+        <svg class="svg-ico" width="32" height="32">
+          <use xlink:href="img/sprite.svg#ico-popup-close"></use>
+        </svg>
+      </button>
+      <h2 class="popup__title">Заказать обратный звонок</h2>
+      <form id="call1" class="ajax-form">
+        <input type="text" name="subject" tabindex="-1" hidden value="Заказать обратный звонок">
+        <div class="popup__form">
+          <div class="popup__field">
+            <label>Имя</label>
+            <input type="text" name="name">
+          </div>
+          <div class="popup__field">
+            <label>Введите телефон<b>*</b></label>
+            <input type="tel" name="tel" required>
+            <input type="hidden" value="" name="email">
+            
+          </div>
+              <div id="captcha-container"></div>
+          <button   class="btn btn-small popup__submit" onclick="handleSubmit('call1')">Заказать звонок </button>
+        </div>
+      </form>
+    </div>
+    
+  
+    <div class="popup" id="popup-price">
+      <button class="popup__close" data-fancybox-close>
+        <svg class="svg-ico" width="32" height="32">
+          <use xlink:href="img/sprite.svg#ico-popup-close"></use>
+        </svg>
+      </button>
+      <h2 class="popup__title">Узнать цену и узнать самую выгодную модель</h2>
+      <form id="call2" class="ajax-form">
+        <input type="text" name="subject" tabindex="-1" hidden value="Узнать цену и выгодную модель">
+        <div class="popup__form">
+          <div class="popup__field">
+            <label>Имя</label>
+            <input type="text" name="name">
+          </div>
+          <div class="popup__field">
+            <label>Введите телефон<b>*</b></label>
+            <input type="tel" name="tel">
+          </div>
+          <div class="popup__field">
+            <label>Или e-mail<b></b></label>
+            <input type="text" name="email">
+          </div>
+          
+             <div id="captcha-container"></div>
+          <button  onclick="handleSubmit('call2')" class="btn btn-small popup__submit">Узнать цену и выгодную модель</button>
+        </div>
+      </form>
+    </div>
+    <div class="popup" id="popup-percent">
+      <button class="popup__close" data-fancybox-close>
+        <svg class="svg-ico" width="32" height="32">
+          <use xlink:href="img/sprite.svg#ico-popup-close"></use>
+        </svg>
+      </button>
+      <h2 class="popup__title">Хочу обсудить мою % ставку</h2>
+      <form id="call3" class="ajax-form">
+        <input type="text" name="subject" tabindex="-1" hidden value="Хочу обсудить мою % ставку">
+        <div class="popup__form">
+          <div class="popup__field">
+            <label>Имя</label>
+            <input type="text" name="name">
+          </div>
+          <div class="popup__field">
+            <label>Введите телефон<b>*</b></label>
+            <input type="tel" name="tel">
+          </div>
+          <div class="popup__field">
+            <label>Или e-mail<b></b></label>
+            <input type="text" name="email">
+          </div>
+         
+            <div id="captcha-container"></div> 
+          <button onclick="handleSubmit('call3')" class="btn btn-small popup__submit">Обсудить ставку</button>
+        </div>
+      </form>
+    </div>
+    <div class="popup" id="popup-catalog">
+      <button class="popup__close" data-fancybox-close>
+        <svg class="svg-ico" width="32" height="32">
+          <use xlink:href="img/sprite.svg#ico-popup-close"></use>
+        </svg>
+      </button>
+      <h2 class="popup__title">Узнать цену и получить консультацию</h2>
+      <form id="call4" class="ajax-form">
+        <input type="text" name="subject" tabindex="-1" hidden value="Узнать цену и получить консультацию">
+        <div class="popup__form">
+          <div class="popup__field">
+            <label>Имя</label>
+            <input type="text" name="name">
+          </div>
+          <div class="popup__field">
+            <label>Введите телефон<b>*</b></label>
+            <input type="tel" name="tel">
+          </div>
+          <div class="popup__field">
+            <label>Или e-mail<b></b></label>
+            <input type="text" name="email">
+          </div>
+          <div id="captcha-container"></div> 
+          <button onclick="handleSubmit('call4')" class="btn btn-small popup__submit">Узнать цену и получить консультацию</button>
+        </div>
+      </form>
+    </div>
+    <div class="popup" id="popup-delay">
+      <button class="popup__close" data-fancybox-close>
+        <svg class="svg-ico" width="32" height="32">
+          <use xlink:href="img/sprite.svg#ico-popup-close"></use>
+        </svg>
+      </button>
+      <h2 class="popup__title">Приобрести терминал с отсрочкой платежа</h2>
+      <form id="call5" class="ajax-form">
+        <input type="text" name="subject" tabindex="-1" hidden value="Приобрести терминал с отсрочкой платежа">
+        <div class="popup__form">
+          <div class="popup__field">
+            <label>Имя</label>
+            <input type="text" name="name">
+          </div>
+          <div class="popup__field">
+            <label>Введите телефон<b>*</b></label>
+            <input type="tel" name="tel">
+          </div>
+          <div class="popup__field">
+            <label>Или e-mail<b></b></label>
+            <input type="text" name="email">
+          </div>
+          <div id="captcha-container"></div>
+          <button onclick="handleSubmit('call5')" class="btn btn-small popup__submit">Приобрести с отсрочкой</button>
+        </div>
+      </form>
+    </div>
+    <div class="popup" id="popup-partners">
+      <button class="popup__close" data-fancybox-close>
+        <svg class="svg-ico" width="32" height="32">
+          <use xlink:href="img/sprite.svg#ico-popup-close"></use>
+        </svg>
+      </button>
+	  
+	  
+	  
+      <h2 class="popup__title">Оставить заявку на 1%</h2>
+      <form id="call6" class="ajax-form">
+        <input type="text" name="subject" tabindex="-1" hidden value="Обсудить условия партнерства">
+        <div class="popup__form">
+          <div class="popup__field">
+            <label>Имя</label>
+            <input type="text" name="name">
+          </div>
+          <div class="popup__field">
+            <label>Введите телефон<b>*</b></label>
+            <input type="tel" name="tel">
+          </div>
+          <div class="popup__field">
+            <label>Или e-mail<b></b></label>
+            <input type="text" name="email">
+          </div>
+          <div id="captcha-container"></div>
+          <button onclick="handleSubmit('call6')" class="btn btn-small popup__submit">Хочу эквайринг под 1%</button>
+        </div>
+      </form>
+
+    </div>
+   
+  </div>
+ 
+  
+  
+  <script src="js/scripts.min.js"></script>
+
+
+
+ <!-- Utm marks -->
+<script>
+
+    
+  document.addEventListener("DOMContentLoaded", function(event) { 
+
+    if (getUrlVars('utm_matchtype')){
+      setCookie('_utm_matchtype', getUrlVars('utm_matchtype'), 30);
+    }
+    if (getUrlVars('utm_source')){
+      setCookie('_utm_source', getUrlVars('utm_source'), 30);
+    }
+    if (getUrlVars('utm_content')){
+      setCookie('_utm_content', getUrlVars('utm_content'), 30);
+    }
+    if (getUrlVars('utm_term')){
+      setCookie('_utm_term', getUrlVars('utm_term'), 30);
+    }
+    if (getUrlVars('utm_campaign')){
+      setCookie('_utm_campaign', getUrlVars('utm_campaign'), 30);
+    }
+    if (getUrlVars('utm_medium')){
+      setCookie('_utm_medium', getUrlVars('utm_medium'), 30);
+    }
+    if (getUrlVars('yclid')){
+      setCookie('_yclid', getUrlVars('yclid'), 90);
+    }
+    YClientID = getYClientID();
+    if (YClientID) {
+        setCookie('clientid',YClientID,90);
+    }
+    
+  });
+  
+  
+  function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires="+d.toUTCString();
+    document.cookie = cname + "=" + cvalue + "; " + expires+";path=/";
+  }
+
+  function getUrlVars(name) {
+    var url = location.href;
+    name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+    var regexS = "[\\?&]"+name+"=([^&#]*)";
+    var regex = new RegExp( regexS );
+    var results = regex.exec( url );
+    return results == null ? null : results[1];
+  }
+  </script>
+  <!-- End utm marks -->
+     <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(57338182, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/57338182" style="position:absolute; left:-9999px;" alt="" /></div></noscript>  
+<script>
+    function getYClientID() {
+    //return yaCounter57338182.getClientID();
+        var match = document.cookie.match('(?:^|;)\\s*_ym_uid=([^;]*)');
+        return (match) ? decodeURIComponent(match[1]) : false;
+    }
+</script>  
+</body>
+
+</html>

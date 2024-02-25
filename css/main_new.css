@@ -1,0 +1,6 @@
+.s_phone_in_terminal img {
+	display: block;
+	margin:0 auto;
+	object-fit: contain; width: 100%; height: 100%;
+	padding-right:0.1em;
+}	
